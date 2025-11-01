@@ -328,7 +328,7 @@ const handleTouchEnd = () => {
     })
 
     // Redireciona para a página de checkout com os parâmetros
-    window.location.href = `/checkout?${params.toString()}`
+    window.location.href = `https://checkout-five-ruby.vercel.app/?${params.toString()}`
   }
 
   // ========================================
